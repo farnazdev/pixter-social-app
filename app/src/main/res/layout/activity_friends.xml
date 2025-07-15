@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".controller.activities.FriendsActivity">
+
+    <include
+        android:id="@+id/friends_toolbar"
+        layout="@layout/app_bar_layout">
+    </include>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/friends_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:background="@color/color1"
+        app:tabIndicatorColor="@color/textBase"
+        app:tabTextColor="@color/textBase"
+        app:tabSelectedTextColor="@color/textBase"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/friends_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>
+

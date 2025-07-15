@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- رنگ اصلی برند -->
+    <color name="colorPrimary">#0E5336</color>
+    <color name="colorPrimaryDark">#385747</color>
+    <color name="colorBack">#141514</color>
+    <color name="colorAccent">#212322</color>
+
+    <!-- رنگ‌های پس‌زمینه -->
+    <color name="colorBackground">#121212</color>      <!-- پس‌زمینه اصلی تیره -->
+    <color name="surface">#1E1E1E</color>
+    <color name="darkGray">#757575</color>
+    <color name="colorProfile">#bcb8b1</color><!-- کارت‌ها، پنجره‌ها -->
+
+
+    <color name="buttons">#3A5647</color>
+    <color name="inputs">#DEE9DB</color>
+
+    <color name="color0">#EEF7EC</color>
+    <color name="color1">#DEE9DB</color>
+    <color name="color2">#C5D6C4</color>
+    <color name="color3">#98AE97</color>
+    <color name="color4">#7E9578</color>
+    <color name="color6">#5C8F75</color>
+    <color name="color5">#385747</color>
+
+
+    <!-- رنگ‌های متن -->
+    <color name="textInput">#212121</color>
+    <color name="textButton">#FAFAFA</color>
+    <color name="textBase">#212121</color>
+    <color name="hintTextBase">#757575</color>
+    <color name="textPrimary">#FFFFFF</color>          <!-- متن اصلی روشن -->
+    <color name="textSecondary">#B0BEC5</color>        <!-- متن فرعی خاکستری روشن -->
+    <color name="textThird">#070707</color>
+
+    <!-- رنگ‌های خاص -->
+    <color name="senderColor">#217E56</color>          <!-- بنفش/آبی تیره برای پیام کاربر -->
+
+    <color name="success">#81C784</color>              <!-- سبز موفقیت در تم تاریک -->
+    <color name="error">#EF5350</color>                <!-- قرمز روشن‌تر برای خطا -->
+</resources>

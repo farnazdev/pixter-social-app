@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorPrimary">#1976D2</color>         <!-- آبی متوسط و اجتماعی -->
+    <color name="colorPrimaryDark">#385747</color>     <!-- آبی تیره برای وضعیت نوارها -->
+    <color name="colorBack">#F3F8F4</color>
+    <color name="colorAccent">#FF000000</color>
+
+    <color name="buttons">#3A5647</color>
+    <color name="inputs">#DEE9DB</color>
+
+
+    <color name="colorBackground">#FAFAFA</color>       <!-- خاکستری خیلی روشن -->
+    <color name="darkGray">#757575</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="colorProfile">#EEEEEE</color>
+
+    <color name="color0">#EEF7EC</color>
+    <color name="color1">#DEE9DB</color>
+    <color name="color2">#C5D6C4</color>
+    <color name="color3">#98AE97</color>
+    <color name="color4">#7E9578</color>
+    <color name="color6">#5C8F75</color>
+    <color name="color5">#385747</color>
+
+
+    <!-- رنگ‌های متن -->
+    <color name="textInput">#212121</color>
+    <color name="textButton">#FAFAFA</color>
+    <color name="textBase">#212121</color>
+    <color name="hintTextBase">#757575</color>
+    <color name="textPrimary">#212121</color>          <!-- متن اصلی -->
+    <color name="textSecondary">#757575</color>          <!-- متن فرعی -->
+    <color name="textThird">#FAFAFA</color>
+
+
+    <color name="senderColor">#299F62</color>          <!-- آبی روشن و ملایم برای حباب پیام -->
+
+
+    <color name="success">#4CAF50</color>              <!-- سبز برای پیام موفقیت -->
+    <color name="error">#F44336</color>                <!-- قرمز برای خطاها -->
+</resources>
+
+
+
+

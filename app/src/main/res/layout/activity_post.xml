@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.activities.PostActivity"
+    android:background="@color/colorBackground">
+
+    <include
+        android:id="@+id/update_post_page_toolbar"
+        layout="@layout/app_bar_layout"/>
+
+    <ImageButton
+        android:id="@+id/select_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/update_post_page_toolbar"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Select Image"
+        android:scaleType="fitCenter"
+        android:background="@color/color1"
+        app:srcCompat="@drawable/select_image" />
+
+    <EditText
+        android:id="@+id/post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_post_image"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Caption..."
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:textColor="@color/textInput"
+        android:textColorHint="@color/textInput" />
+
+    <Button
+        android:id="@+id/update_post_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_description"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/buttons"
+        android:padding="10dp"
+        android:text="Upload Post"
+        android:textColor="@color/textButton"
+        android:textSize="18sp" />
+
+</RelativeLayout>

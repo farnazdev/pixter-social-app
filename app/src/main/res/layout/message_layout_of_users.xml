@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/receiver_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:minWidth="100px"
+        android:background="@drawable/receiver_message_text_background">
+
+        <TextView
+            android:id="@+id/receiver_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="receiver message"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/receiver_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textAlignment="viewEnd"
+            android:textSize="10sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sender_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100px"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="@+id/receiver_layout"
+        android:background="@drawable/sender_message_text_background">
+
+        <TextView
+            android:id="@+id/sender_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="sender message"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/sender_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textAlignment="viewEnd"
+            android:textSize="10sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
