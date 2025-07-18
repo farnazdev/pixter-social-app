@@ -61,35 +61,41 @@ While this app doesn’t maintain traditional logs, the backend handles and stor
 
 ## Requirements
 
-Frontend: Android Studio (Java)
-Backend: PHP server with API endpoints for auth, post, and chat
-Database: MySQL or equivalent
-Image Handling: Glide library for smooth media loading
-API Communication: RESTful API calls over HTTP
+- Frontend: Android Studio (Java)
+- Backend: PHP server with API endpoints for auth, post, and chat
+- Database: MySQL
+- Image Handling: Glide library for smooth media loading
+- API Communication: RESTful API calls over HTTP
 
 ---
 
 ## Testing
 
-Create a new account or use test credentials
-Upload an image post and verify it appears on the feed
-Initiate a private chat between two users
-Like/comment on posts and validate interactions
-Test follow/unfollow and view post filtering
-Simulate network delays and confirm app handles API errors gracefully
+- Create a new account or use test credentials
+- Upload an image post and verify it appears on the feed
+- Initiate a private chat between two users
+- Like/comment on posts and validate interactions
+- Test follow/unfollow and view post filtering
+- Simulate network delays and confirm app handles API errors gracefully
 
 ---
 
 ## Demo
 
-Video demo
 
-📎 [View]()
+Video demo 📎 [View](https://drive.google.com/drive/folders/1GMQ3wglrvox8y-5vk_1mhwkJqWr6xYAO?usp=sharing)
 
 
-Execute
+Execute 📎 [View](https://drive.google.com/drive/folders/1jcLYNyGRzP5QNjmCe4ZjFo0kQ9PrYZ6S?usp=sharing)
 
-📎 [View](https://drive.google.com/drive/folders/1jcLYNyGRzP5QNjmCe4ZjFo0kQ9PrYZ6S?usp=sharing)
 
+[Download Demo](https://drive.google.com/file/d/1P7_2igG8TJkpoUpQa4NBMF4bCWM4hueW/view?usp=sharing)
+
+---
+
+
+## Documents
+
+Project Document --> 📎 [View](https://drive.google.com/file/d/1Yeni89i6E8w7DV_0W93QXSLM4Ujy-D7O/view?usp=sharing)
 
 ---
